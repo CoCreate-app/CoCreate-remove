@@ -40,9 +40,54 @@ function  remove(btn) {
 			elements = [btn.closest(selector)];
 		else
 			elements = [btn.closest('[templateid]')];
-	}	
+	}
+	let attribute = btn.getAttribute('remove-attribute');
+	let attributeValue = btn.getAttribute('remove-value');
+
 	for(let element of elements){
         let domTextEditor = element.closest('[contenteditable]');
+		if (attribute){
+			if (attributeValue) {
+				if (attribute == 'class'){
+					if (domTextEditor)
+						text.removeClass({
+			        		domTextEditor,
+			        		target: element,
+			        		className: attributeValue
+			        	});
+			        else
+			        	element.classList.remove(attributeValue);
+				}
+				if (attribute == 'style'){
+					if (domTextEditor)
+						text.removeStyle({
+			        		domTextEditor,
+			        		target: element,
+			        		property: attributeValue
+			        	});
+			        else
+			        	element.style.removeProperty(attributeValue);
+				}
+				if (domTextEditor)
+					text.setAttribute({
+		        		domTextEditor,
+		        		target: element,
+		        		name: attribute
+		        	});
+		        else
+		        	element.setAttribute(attribute, '');
+			}
+			else {
+				if (domTextEditor)
+					text.removeAttribute({
+		        		domTextEditor,
+		        		target: element,
+		        		name: attribute
+		        	});
+				else	
+					element.removeAttribute(attribute);
+			}
+		}
         if (domTextEditor)
         	text.removeElement({
         		domTextEditor,
