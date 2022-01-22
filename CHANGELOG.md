@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.0.0...v1.1.0) (2022-01-22)
+
+
+### Features
+
+* support to remove atrributes, style property and className ([35fa1ce](https://github.com/CoCreate-app/CoCreate-remove/commit/35fa1cef325959327f0851078c4924f3d064940d))
+
 # 1.0.0 (2022-01-06)
 
 
