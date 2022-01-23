@@ -48,34 +48,37 @@ function  remove(btn) {
         let domTextEditor = element.closest('[contenteditable]');
 		if (attribute){
 			if (attributeValue) {
-				if (attribute == 'class'){
-					if (domTextEditor)
-						text.removeClass({
-			        		domTextEditor,
-			        		target: element,
-			        		className: attributeValue
-			        	});
-			        else
-			        	element.classList.remove(attributeValue);
+				switch(attribute) {
+					case 'class':
+						if (domTextEditor)
+							text.removeClass({
+				        		domTextEditor,
+				        		target: element,
+				        		className: attributeValue
+				        	});
+				        else
+				        	element.classList.remove(attributeValue);
+						break;
+					case 'style':
+						if (domTextEditor)
+							text.removeStyle({
+				        		domTextEditor,
+				        		target: element,
+				        		property: attributeValue
+				        	});
+				        else
+				        	element.style.removeProperty(attributeValue);
+						break;
+					default:
+						if (domTextEditor)
+							text.setAttribute({
+				        		domTextEditor,
+				        		target: element,
+				        		name: attribute
+				        	});
+				        else
+				        	element.setAttribute(attribute, '');
 				}
-				if (attribute == 'style'){
-					if (domTextEditor)
-						text.removeStyle({
-			        		domTextEditor,
-			        		target: element,
-			        		property: attributeValue
-			        	});
-			        else
-			        	element.style.removeProperty(attributeValue);
-				}
-				if (domTextEditor)
-					text.setAttribute({
-		        		domTextEditor,
-		        		target: element,
-		        		name: attribute
-		        	});
-		        else
-		        	element.setAttribute(attribute, '');
 			}
 			else {
 				if (domTextEditor)
@@ -88,13 +91,15 @@ function  remove(btn) {
 					element.removeAttribute(attribute);
 			}
 		}
-        if (domTextEditor)
-        	text.removeElement({
-        		domTextEditor,
-        		target: element
-        	});
-	    else
-	        element.remove();
+		else {
+	        if (domTextEditor)
+	        	text.removeElement({
+	        		domTextEditor,
+	        		target: element
+	        	});
+		    else
+		        element.remove();
+		}
 	}
 	document.dispatchEvent(new CustomEvent('removeElement', {detail: {}}));
 }

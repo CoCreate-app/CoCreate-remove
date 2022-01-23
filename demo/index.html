@@ -7,24 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
     <title>remove | CoCreateJS</title>
-
-    <!-- CoCreate CSS CDN -->
-    <link rel="stylesheet" href="https://cdn.cocreate.app/remove/latest/CoCreate-remove.min.css" type="text/css" />
-  
   </head>
   
   <body>
-  
-
-    <script>
-      var config = {
-            apiKey: 'c2b08663-06e3-440c-ef6f-13978b42883a',
-            organization_Id: '5de0387b12e200ea63204d6c'
-      }
-    </script>
+    <h1 id="one" test>one</h1>
+    <a actions="remove" remove-target="#one" remove-attribute="test">one</a>
+    
+    <h1 id="two" class="new">two</h1>
+    <a actions="remove" remove-target="#two" remove-attribute="class" remove-value="new">two</a>
+    
+    <h1 id="three" style="color:blue;">three</h1>
+    <a actions="remove" remove-target="#three" remove-attribute="style" remove-value="color">three</a>
+    
+    <h1 id="four">four</h1>
+    <a actions="remove" remove-target="#four">four</a>
     
     <!-- CoCreate JS CDN -->
-    <script src="https://cdn.cocreate.app/remove/latest/CoCreate-remove.min.js"></script>
+    <!--<script src="https://cdn.cocreate.app/remove/latest/CoCreate-remove.min.js"></script>-->
+    <script src="../../../CoCreateJS/dist/CoCreate.js"></script>
 
   </body>
 </html>
