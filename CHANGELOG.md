@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.1.0...v1.1.1) (2022-01-23)
+
+
+### Bug Fixes
+
+* remove class or style value resolved by add switch case ([23380d8](https://github.com/CoCreate-app/CoCreate-remove/commit/23380d8b4137d4827555e5a3b0b93c5de366571c))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.0.0...v1.1.0) (2022-01-22)
 
 
