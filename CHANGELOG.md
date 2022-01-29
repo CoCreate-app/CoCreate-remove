@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.2.0...v1.2.1) (2022-01-29)
+
+
+### Bug Fixes
+
+* remove test html frame.1.html ([0d766b2](https://github.com/CoCreate-app/CoCreate-remove/commit/0d766b2de974e8dd31b1d7bac0291cc620f300f2))
+
 # [1.2.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.1.1...v1.2.0) (2022-01-29)
 
 
