@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.1.1...v1.2.0) (2022-01-29)
+
+
+### Features
+
+* support for targeting elements in iframes ([67dcb72](https://github.com/CoCreate-app/CoCreate-remove/commit/67dcb723d1e9c83f161f5d96bc599d400883afd6))
+
 ## [1.1.1](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.1.0...v1.1.1) (2022-01-23)
 
 
