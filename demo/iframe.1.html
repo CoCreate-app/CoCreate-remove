@@ -11,7 +11,7 @@
   
   <body>
     <h1 id="one" test>one</h1>
-    <a actions="remove" remove-target="iframe; *" remove-attribute="test">one</a>
+    <a actions="remove" remove-target="#one" remove-attribute="test">one</a>
     
     <h1 id="two" class="new">two</h1>
     <a actions="remove" remove-target="#two" remove-attribute="class" remove-value="new">two</a>
@@ -20,10 +20,8 @@
     <a actions="remove" remove-target="#three" remove-attribute="style" remove-value="color">three</a>
     
     <h1 id="four">four</h1>
-    <a actions="remove" remove-target="iframe;">four</a>
+    <a actions="remove" remove-target="#four">four</a>
     
-    <iframe src="./iframe.html"></iframe>
-
     <!-- CoCreate JS CDN -->
     <!--<script src="https://cdn.cocreate.app/remove/latest/CoCreate-remove.min.js"></script>-->
     <script src="../../../CoCreateJS/dist/CoCreate.js"></script>

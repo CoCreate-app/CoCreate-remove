@@ -1,39 +1,28 @@
 /*global CustomEvent*/
 import action from '@cocreate/actions';
-// import toolbar from '@cocreate/toolbar';
 import text from '@cocreate/text';
 
-
-// function  removeElement(btn) {
-// 	let element = btn.closest('toolbar, .toolbar');
-// 	let targetElement = element.toolbar.target;
-// 	let domTextEditor = targetElement.ownerDocument.documentElement;
-
-// 	text.removeElement({
-// 		domTextEditor,
-// 		target: targetElement
-// 	});
-	
-// 	toolbar.hide(element);
-	
-// 	document.dispatchEvent(new CustomEvent('removeElement', {
-// 		detail: {}
-// 	}));
-// }
-
-// action.init({
-// 	action: "removeElement",
-// 	endEvent: "removeElement",
-// 	callback: (btn, data) => {
-// 		removeElement(btn);
-// 	}
-// });
 
 function  remove(btn) {
 	let elements;
 	let selector  = btn.getAttribute('remove-target');
-	if (selector)
-		elements = document.querySelectorAll(selector);
+	let targetDocument = document;
+
+	if (selector) {
+		if(selector.indexOf(';') !== -1) {
+			let [documentSelector, targetSelector] = selector.split(';');
+			let frame = document.querySelector(documentSelector);
+			if (frame) {
+			 	targetDocument = frame.contentDocument;
+				if (targetSelector)
+				 	elements = targetDocument.querySelectorAll(targetSelector);
+				else
+					elements = [targetDocument.clickedElement];
+			}
+		}
+		else
+			elements = targetDocument.querySelectorAll(selector);
+	}
 	else {
 		selector = btn.getAttribute('remove-closest');
 		if (selector)
