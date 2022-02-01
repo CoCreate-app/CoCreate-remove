@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.2.1...v1.2.2) (2022-02-01)
+
+
+### Bug Fixes
+
+* update dependency versions ([6c9ebd9](https://github.com/CoCreate-app/CoCreate-remove/commit/6c9ebd9d608ed5af99e8d2e4dc7323f880642a37))
+
 ## [1.2.1](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.2.0...v1.2.1) (2022-01-29)
 
 
