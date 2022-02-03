@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.2.2...v1.2.3) (2022-02-03)
+
+
+### Bug Fixes
+
+* added @cocreate/utils for queryFrameSelectorAll ([fa5ed87](https://github.com/CoCreate-app/CoCreate-remove/commit/fa5ed87a4c4ec9f57febddd6a9cbdfc1342a4b8b))
+
 ## [1.2.2](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.2.1...v1.2.2) (2022-02-01)
 
 
