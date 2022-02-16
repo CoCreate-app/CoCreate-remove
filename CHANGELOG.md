@@ -1,3 +1,10 @@
+## [1.2.7](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.2.6...v1.2.7) (2022-02-16)
+
+
+### Bug Fixes
+
+* update action param to name ([aef1273](https://github.com/CoCreate-app/CoCreate-remove/commit/aef1273831c4992bbf1e7f72467c2345cdfe201d))
+
 ## [1.2.6](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.2.5...v1.2.6) (2022-02-10)
 
 
