@@ -1,3 +1,11 @@
+## [1.2.13](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.2.12...v1.2.13) (2022-06-12)
+
+
+### Bug Fixes
+
+* update dependencies ([e4cdd55](https://github.com/CoCreate-app/CoCreate-remove/commit/e4cdd55cbe839802cb9985929c3b813ff7a0858b))
+* update docs css document_id ([9199a4f](https://github.com/CoCreate-app/CoCreate-remove/commit/9199a4f270d6fe892fc46a044e28d2f3348673b7))
+
 ## [1.2.12](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.2.11...v1.2.12) (2022-05-23)
 
 
