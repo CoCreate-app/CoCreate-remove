@@ -1,14 +1,14 @@
 /*global CustomEvent*/
 import action from '@cocreate/actions';
 import text from '@cocreate/text';
-import {queryFrameSelectorAll} from '@cocreate/utils';
+import {queryDocumentSelectorAll} from '@cocreate/utils';
 
 function  remove(btn) {
 	let elements;
 	let selector  = btn.getAttribute('remove-target');
 
 	if (selector) {
-		elements = queryFrameSelectorAll(selector);
+		elements = queryDocumentSelectorAll(selector);
 	} 
 	else {
 		selector = btn.getAttribute('remove-closest');
