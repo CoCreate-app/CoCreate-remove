@@ -1,3 +1,10 @@
+## [1.3.1](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.3.0...v1.3.1) (2022-09-01)
+
+
+### Bug Fixes
+
+* bump all of [@cocreate](https://github.com/cocreate) dependencies ([e037188](https://github.com/CoCreate-app/CoCreate-remove/commit/e037188fdb27fa1ca89042e5dd05e3f115250eb4))
+
 # [1.3.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.2.14...v1.3.0) (2022-07-03)
 
 
