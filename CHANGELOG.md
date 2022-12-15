@@ -1,3 +1,10 @@
+## [1.3.31](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.3.30...v1.3.31) (2022-12-15)
+
+
+### Bug Fixes
+
+* add missing dev dependency style-loader ([9696d70](https://github.com/CoCreate-app/CoCreate-remove/commit/9696d7044fcf9007e0f8d327fdc7e9651f60b3ff))
+
 ## [1.3.30](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.3.29...v1.3.30) (2022-12-13)
 
 
