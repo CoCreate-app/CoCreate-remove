@@ -1,3 +1,11 @@
+## [1.3.43](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.3.42...v1.3.43) (2023-01-05)
+
+
+### Bug Fixes
+
+* bump cdn to 1.39.4 ([212b921](https://github.com/CoCreate-app/CoCreate-remove/commit/212b92198c9ab4f5cf48e5a4858792119b9a10cb))
+* bump dependencies ([7783e42](https://github.com/CoCreate-app/CoCreate-remove/commit/7783e42a4ee25fd410e310cc10a5b52d40adbad9))
+
 ## [1.3.42](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.3.41...v1.3.42) (2023-01-01)
 
 
