@@ -77,7 +77,7 @@ function  remove(btn) {
 		        element.remove();
 		}
 	}
-	document.dispatchEvent(new CustomEvent('removeElement', {detail: {}}));
+	document.dispatchEvent(new CustomEvent('remove', {detail: {}}));
 }
 
 action.init({
