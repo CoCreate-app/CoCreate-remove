@@ -1,3 +1,10 @@
+## [1.3.53](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.3.52...v1.3.53) (2023-03-15)
+
+
+### Bug Fixes
+
+* action complete event misspelled ([7524816](https://github.com/CoCreate-app/CoCreate-remove/commit/7524816389c0c8b885b445d6aada6d849562f977))
+
 ## [1.3.52](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.3.51...v1.3.52) (2023-02-01)
 
 
