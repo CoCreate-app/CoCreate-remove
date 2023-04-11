@@ -1,3 +1,10 @@
+## [1.4.6](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.4.5...v1.4.6) (2023-04-11)
+
+
+### Bug Fixes
+
+* bump dependencies ([d31c2da](https://github.com/CoCreate-app/CoCreate-remove/commit/d31c2da009cbcbd2adc16b4b530972bbc07e47c0))
+
 ## [1.4.5](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.4.4...v1.4.5) (2023-04-11)
 
 
