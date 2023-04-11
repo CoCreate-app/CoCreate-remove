@@ -1,3 +1,10 @@
+## [1.4.4](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.4.3...v1.4.4) (2023-04-11)
+
+
+### Bug Fixes
+
+* renamed domains to hosts ([11c32b6](https://github.com/CoCreate-app/CoCreate-remove/commit/11c32b68829e71deef7b0e8d76084718229deedf))
+
 ## [1.4.3](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.4.2...v1.4.3) (2023-03-30)
 
 
