@@ -60,10 +60,10 @@
     "webpack-log": "^3.0.1"
   },
   "dependencies": {
-    "@cocreate/actions": "^1.6.2",
-    "@cocreate/docs": "^1.6.2",
-    "@cocreate/hosting": "^1.8.2",
-    "@cocreate/text": "^1.19.2",
-    "@cocreate/utils": "^1.19.2"
+    "@cocreate/actions": "^1.6.4",
+    "@cocreate/docs": "^1.6.4",
+    "@cocreate/hosting": "^1.8.4",
+    "@cocreate/text": "^1.19.4",
+    "@cocreate/utils": "^1.19.4"
   }
 }
