@@ -1,3 +1,11 @@
+## [1.5.3](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.2...v1.5.3) (2023-04-24)
+
+
+### Bug Fixes
+
+* updated worrkflows to v3 and node version 16 ([499adb3](https://github.com/CoCreate-app/CoCreate-remove/commit/499adb3933adbcea1a977012deb556d93126312f))
+* workflow node version updated  16 ([6b10003](https://github.com/CoCreate-app/CoCreate-remove/commit/6b100037205015e5776696227d04af85f0b8ee1a))
+
 ## [1.5.2](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.1...v1.5.2) (2023-04-24)
 
 
