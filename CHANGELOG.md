@@ -1,3 +1,10 @@
+## [1.5.8](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.7...v1.5.8) (2023-05-10)
+
+
+### Bug Fixes
+
+* apikey renamed to key ([6ca454a](https://github.com/CoCreate-app/CoCreate-remove/commit/6ca454a08479a1a729c46f0fe0b22ece1f769032))
+
 ## [1.5.7](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.6...v1.5.7) (2023-05-06)
 
 
