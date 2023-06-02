@@ -1,3 +1,10 @@
+## [1.5.11](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.10...v1.5.11) (2023-06-02)
+
+
+### Bug Fixes
+
+* format demo html ([4d29bb5](https://github.com/CoCreate-app/CoCreate-remove/commit/4d29bb5af5f6525b82d04050654c60d685e74b97))
+
 ## [1.5.10](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.9...v1.5.10) (2023-05-21)
 
 
