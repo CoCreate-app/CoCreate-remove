@@ -1,33 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link
+            rel="icon"
+            href="https://cdn.cocreate.app/favicon.ico"
+            type="image/ico"
+            sizes="16x16" />
+        <title>remove | CoCreateJS</title>
+        <link rel="manifest" href="/manifest.webmanifest" />
+    </head>
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="https://cdn.cocreate.app/favicon.ico" type="image/ico" sizes="16x16">
-    <title>remove | CoCreateJS</title>
-    <link rel="manifest" href="/manifest.webmanifest">
-  </head>
-  
-  <body>
-    <h1 id="one" test>one</h1>
-    <a actions="remove" remove-target="iframe; #one" remove-attribute="test">one</a>
-    
-    <h1 id="two" class="new">two</h1>
-    <a actions="remove" remove-target="#two" remove-attribute="class" remove-value="new">two</a>
-    
-    <h1 id="three" style="color:blue;">three</h1>
-    <a actions="remove" remove-target="#three" remove-attribute="style" remove-value="color">three</a>
-    
-    <h1 id="four">four</h1>
-    <a actions="remove" remove-target="iframe;">four</a>
-    
-    <iframe src="./iframe.html"></iframe>
+    <body>
+        <h1 id="one" test>one</h1>
+        <a actions="remove" remove-target="iframe; #one" remove-attribute="test"
+            >one</a
+        >
 
-    <!-- CoCreate JS CDN -->
-    <!--<script src="https://cdn.cocreate.app/remove/latest/CoCreate-remove.min.js"></script>-->
-    <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
+        <h1 id="two" class="new">two</h1>
+        <a
+            actions="remove"
+            remove-target="#two"
+            remove-attribute="class"
+            remove-value="new"
+            >two</a
+        >
 
-  </body>
+        <h1 id="three" style="color: blue">three</h1>
+        <a
+            actions="remove"
+            remove-target="#three"
+            remove-attribute="style"
+            remove-value="color"
+            >three</a
+        >
+
+        <h1 id="four">four</h1>
+        <a actions="remove" remove-target="iframe;">four</a>
+
+        <iframe src="./iframe.html"></iframe>
+
+        <!-- CoCreate JS CDN -->
+        <!--<script src="https://cdn.cocreate.app/remove/latest/CoCreate-remove.min.js"></script>-->
+        <script src="https://cdn.cocreate.app/latest/CoCreate.min.js"></script>
+    </body>
 </html>
