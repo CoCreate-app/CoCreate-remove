@@ -1,3 +1,10 @@
+## [1.5.20](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.19...v1.5.20) (2023-06-11)
+
+
+### Bug Fixes
+
+* postintall error ([1d0b346](https://github.com/CoCreate-app/CoCreate-remove/commit/1d0b34603975dd9be57e316abce7528958888594))
+
 ## [1.5.19](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.18...v1.5.19) (2023-06-11)
 
 
