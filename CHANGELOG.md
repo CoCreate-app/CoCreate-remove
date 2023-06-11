@@ -1,3 +1,10 @@
+## [1.5.25](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.24...v1.5.25) (2023-06-11)
+
+
+### Bug Fixes
+
+* testing workflow ([f758d9c](https://github.com/CoCreate-app/CoCreate-remove/commit/f758d9c69d9ede4dc2965e0b581fadc390a9938b))
+
 ## [1.5.24](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.23...v1.5.24) (2023-06-11)
 
 
