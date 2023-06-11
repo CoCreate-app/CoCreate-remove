@@ -1,3 +1,10 @@
+## [1.5.18](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.17...v1.5.18) (2023-06-11)
+
+
+### Bug Fixes
+
+* Update dependencies versions for [@cocreate](https://github.com/cocreate) libraries ([579ea0a](https://github.com/CoCreate-app/CoCreate-remove/commit/579ea0a93ddc3cd7d923a56cf51a53af8a9c0690))
+
 ## [1.5.17](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.16...v1.5.17) (2023-06-11)
 
 
