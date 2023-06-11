@@ -1,6 +1,6 @@
 {
   "name": "@cocreate/remove",
-  "version": "1.5.16",
+  "version": "1.5.17",
   "description": "A simple remove component in vanilla javascript. Easily configured using HTML5 attributes and/or JavaScript API.",
   "keywords": [
     "remove",
