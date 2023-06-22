@@ -83,7 +83,7 @@ function  remove(btn) {
 action.init({
 	name: "remove",
 	endEvent: "remove",
-	callback: (btn, data) => {
-		remove(btn);
+	callback: (data) => {
+		remove(data.element);
 	}
 });
