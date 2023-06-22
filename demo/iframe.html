@@ -15,12 +15,12 @@
 
     <body>
         <h1 id="one" test>one</h1>
-        <a actions="remove" remove-target="parent; #one">one</a>
+        <a actions="remove" remove-selector="parent; #one">one</a>
 
         <h1 id="two" class="new">two</h1>
         <a
             actions="remove"
-            remove-target="#two"
+            remove-selector="#two"
             remove-attribute="class"
             remove-value="new"
             >two</a
@@ -29,14 +29,14 @@
         <h1 id="three" style="color: blue">three</h1>
         <a
             actions="remove"
-            remove-target="#three"
+            remove-selector="#three"
             remove-attribute="style"
             remove-value="color"
             >three</a
         >
 
         <h1 id="four" test>four</h1>
-        <a actions="remove" remove-target="#four">four</a>
+        <a actions="remove" remove-selector="#four">four</a>
 
         <!-- CoCreate JS CDN -->
         <!--<script src="https://cdn.cocreate.app/remove/latest/CoCreate-remove.min.js"></script>-->

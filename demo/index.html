@@ -15,14 +15,17 @@
 
     <body>
         <h1 id="one" test>one</h1>
-        <a actions="remove" remove-target="iframe; #one" remove-attribute="test"
+        <a
+            actions="remove"
+            remove-selector="iframe; #one"
+            remove-attribute="test"
             >one</a
         >
 
         <h1 id="two" class="new">two</h1>
         <a
             actions="remove"
-            remove-target="#two"
+            remove-selector="#two"
             remove-attribute="class"
             remove-value="new"
             >two</a
@@ -31,14 +34,14 @@
         <h1 id="three" style="color: blue">three</h1>
         <a
             actions="remove"
-            remove-target="#three"
+            remove-selector="#three"
             remove-attribute="style"
             remove-value="color"
             >three</a
         >
 
         <h1 id="four">four</h1>
-        <a actions="remove" remove-target="iframe;">four</a>
+        <a actions="remove" remove-selector="iframe;">four</a>
 
         <iframe src="./iframe.html"></iframe>
 
