@@ -4,19 +4,12 @@ import text from '@cocreate/text';
 import { queryElements } from '@cocreate/utils';
 
 function remove(btn) {
-    let elements;
-    let selector = btn.getAttribute('remove-selector');
+    let elements = queryElements({ element: btn, prefix: 'remove' });
+    if (elements === false)
+        elements = [btn.closest('[render-clone]')];
 
-    if (selector) {
-        elements = queryElements({ element: btn, selector, type: 'selector' });
-    }
-    else {
-        selector = btn.getAttribute('remove-closest');
-        if (selector)
-            elements = [btn.closest(selector)];
-        else
-            elements = [btn.closest('[templateid]')];
-    }
+
+
     let attribute = btn.getAttribute('remove-attribute');
     let attributeValue = btn.getAttribute('remove-value');
 
