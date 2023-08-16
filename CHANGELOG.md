@@ -1,3 +1,20 @@
+# [1.6.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.28...v1.6.0) (2023-08-16)
+
+
+### Bug Fixes
+
+* crud attributes renamed ([54f8738](https://github.com/CoCreate-app/CoCreate-remove/commit/54f8738c607ece78093f279637267ab85c23c8ed))
+* replace -target -selector ([cee1ec3](https://github.com/CoCreate-app/CoCreate-remove/commit/cee1ec37aa6cde91b5149122b3410577f93bf7a6))
+* updated actions callback data object ([7dd7b5a](https://github.com/CoCreate-app/CoCreate-remove/commit/7dd7b5aad96fc70a0aab5f513adbeb5c60328591))
+* webpack.config and package.json make use of mode=production instead of process.env ([16e0f45](https://github.com/CoCreate-app/CoCreate-remove/commit/16e0f45ab1a85e85a5308cfff4f8800dfc27209f))
+
+
+### Features
+
+* name attribute and variable renamed to key ([88e25c9](https://github.com/CoCreate-app/CoCreate-remove/commit/88e25c90cc4759e5520fb48250a38bd8d1e58409))
+* Refactor queryDocumentSelectorAll to use queryElements ([98bfa18](https://github.com/CoCreate-app/CoCreate-remove/commit/98bfa184da88c023ab2cf94ef76db401983290f7))
+* Refactor remove function to simplify element retrieval logic and use new queryElement function from utils ([596fcc5](https://github.com/CoCreate-app/CoCreate-remove/commit/596fcc5e9a318fe293d73699e4f410e8139363c7))
+
 ## [1.5.28](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.27...v1.5.28) (2023-06-14)
 
 
