@@ -1,3 +1,10 @@
+# [1.7.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.6.0...v1.7.0) (2023-08-17)
+
+
+### Features
+
+* bump cocreate dependencies for the latest updates and features ([4cca2a4](https://github.com/CoCreate-app/CoCreate-remove/commit/4cca2a497b729d2e20e6f0dd57b02f2c8fbf5fbc))
+
 # [1.6.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.5.28...v1.6.0) (2023-08-16)
 
 
