@@ -1,3 +1,10 @@
+## [1.8.1](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.8.0...v1.8.1) (2023-08-21)
+
+
+### Bug Fixes
+
+* bump dependencies ([f79aafc](https://github.com/CoCreate-app/CoCreate-remove/commit/f79aafcffbe691f1d2709ea179662ee70d785abc))
+
 # [1.8.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.7.1...v1.8.0) (2023-08-21)
 
 
