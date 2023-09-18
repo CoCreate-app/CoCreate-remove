@@ -1,3 +1,11 @@
+## [1.8.2](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.8.1...v1.8.2) (2023-09-18)
+
+
+### Bug Fixes
+
+*  Add path and pathname ([d664547](https://github.com/CoCreate-app/CoCreate-remove/commit/d6645472ba354acf72bc6f921b78f3b446732263))
+* Update CoCreate depndencies to latest versions ([ecf7ac3](https://github.com/CoCreate-app/CoCreate-remove/commit/ecf7ac3a65eede196f93d84b54ab26ce37794811))
+
 ## [1.8.1](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.8.0...v1.8.1) (2023-08-21)
 
 
