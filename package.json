@@ -60,6 +60,6 @@
   "dependencies": {
     "@cocreate/actions": "^1.11.2",
     "@cocreate/text": "^1.23.2",
-    "@cocreate/utils": "^1.24.2"
+    "@cocreate/utils": "^1.25.0"
   }
 }
