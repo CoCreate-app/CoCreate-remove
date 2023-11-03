@@ -1,3 +1,11 @@
+## [1.8.8](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.8.7...v1.8.8) (2023-11-03)
+
+
+### Bug Fixes
+
+* favicon.ico path ([f08764a](https://github.com/CoCreate-app/CoCreate-remove/commit/f08764ad147fa02d70a88d8bfa518c4d161a4101))
+* update dependencies to the lates versions ([3a7c50d](https://github.com/CoCreate-app/CoCreate-remove/commit/3a7c50d17c5efd246da081fed2097e7662ba55bc))
+
 ## [1.8.7](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.8.6...v1.8.7) (2023-10-25)
 
 
