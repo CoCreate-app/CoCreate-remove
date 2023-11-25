@@ -1,3 +1,15 @@
+# [1.11.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.10.0...v1.11.0) (2023-11-25)
+
+
+### Bug Fixes
+
+* update licensing details ([27efa4b](https://github.com/CoCreate-app/CoCreate-remove/commit/27efa4b17af0c88093f852cbc410b1d409cd6257))
+
+
+### Features
+
+* upgrade dependencies for latest features and fixes ([e7a8b40](https://github.com/CoCreate-app/CoCreate-remove/commit/e7a8b40ca67bb34013598d44532e0a6e6705f781))
+
 # [1.10.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.9.0...v1.10.0) (2023-11-25)
 
 
