@@ -1,12 +1,14 @@
 /*global CustomEvent*/
-import action from '@cocreate/actions';
+import Observer from '@cocreate/observer';
+import Actions from '@cocreate/actions';
 import text from '@cocreate/text';
 import { queryElements } from '@cocreate/utils';
 
 function remove(btn) {
     let elements = queryElements({ element: btn, prefix: 'remove' });
     if (elements === false)
-        elements = [btn.closest('[render-clone]')];
+        elements = [btn.closest('[render-clone]') || btn];
+
 
 
 
@@ -73,7 +75,35 @@ function remove(btn) {
     document.dispatchEvent(new CustomEvent('remove', { detail: {} }));
 }
 
-action.init({
+Observer.init({
+    name: 'CoCreateRemove',
+    observe: ['addedNodes'],
+    target: '[remove-timeout]',
+    callback: function (mutation) {
+        let timeout = mutation.target.getAttribute('remove-timeout');
+        if (timeout >= 0) {
+            setTimeout(function () {
+                remove(mutation.target);
+            }, timeout);
+        }
+    }
+});
+
+Observer.init({
+    name: 'CoCreateElementsAttributes',
+    observe: ['attributes'],
+    attributeName: ['remove-timeout'],
+    callback: function (mutation) {
+        let timeout = mutation.target.getAttribute('remove-timeout');
+        if (timeout >= 0) {
+            setTimeout(function () {
+                remove(mutation.target);
+            }, timeout);
+        }
+    }
+});
+
+Actions.init({
     name: "remove",
     endEvent: "remove",
     callback: (data) => {
