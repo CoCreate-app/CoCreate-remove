@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.11.0...v1.11.1) (2023-12-18)
+
+
+### Bug Fixes
+
+* remove will work on self if no closest render-clone ([a3f633b](https://github.com/CoCreate-app/CoCreate-remove/commit/a3f633b60163717a2a1e751bbce54d86bb480b0d))
+
 # [1.11.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.10.0...v1.11.0) (2023-11-25)
 
 
