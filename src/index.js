@@ -5,18 +5,28 @@ import text from '@cocreate/text';
 import { queryElements } from '@cocreate/utils';
 
 function remove(btn) {
-    let elements = queryElements({ element: btn, prefix: 'remove' });
-    if (elements === false)
-        elements = [btn.closest('[render-clone]') || btn];
+    // TODO: if target is a contenteditable element we can use the activeSelection as the target
+    let elements = []
+    let toolbar = btn.closest('toolbar, .toolbar');
+    if (toolbar) {
+        if (toolbar.toolbar.target)
+            elements.push(toolbar.toolbar.target);
+    } else {
+        elements = queryElements({ element: btn, prefix: 'remove' });
+        if (elements === false)
+            elements = [btn.closest('[render-clone]') || btn];
 
-
-
+    }
 
     let attribute = btn.getAttribute('remove-attribute');
     let attributeValue = btn.getAttribute('remove-value');
 
     for (let element of elements) {
         let domTextEditor = element.closest('[contenteditable]');
+        if (!domTextEditor.htmlString) {
+            domTextEditor = domTextEditor.closest('[contenteditable]');
+        }
+
         if (attribute) {
             if (attributeValue) {
                 switch (attribute) {
