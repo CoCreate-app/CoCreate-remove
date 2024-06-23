@@ -1,3 +1,10 @@
+## [1.11.4](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.11.3...v1.11.4) (2024-06-23)
+
+
+### Bug Fixes
+
+* targeting elements selected in a contenteditable element ([e4efc8d](https://github.com/CoCreate-app/CoCreate-remove/commit/e4efc8d4926293ae089178e29e56603485b32c13))
+
 ## [1.11.3](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.11.2...v1.11.3) (2024-06-12)
 
 
