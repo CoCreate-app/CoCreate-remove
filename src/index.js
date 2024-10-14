@@ -15,7 +15,6 @@ function remove(btn) {
         elements = queryElements({ element: btn, prefix: 'remove' });
         if (elements === false)
             elements = [btn.closest('[render-clone]') || btn];
-
     }
 
     let attribute = btn.getAttribute('remove-attribute');
@@ -23,8 +22,9 @@ function remove(btn) {
 
     for (let element of elements) {
         let domTextEditor = element.closest('[contenteditable]');
-        if (!domTextEditor.htmlString) {
+        if (domTextEditor && !domTextEditor.htmlString) {
             domTextEditor = domTextEditor.closest('[contenteditable]');
+
         }
 
         if (attribute) {
@@ -60,8 +60,7 @@ function remove(btn) {
                         else
                             element.setAttribute(attribute, '');
                 }
-            }
-            else {
+            } else {
                 if (domTextEditor)
                     text.removeAttribute({
                         domTextEditor,
@@ -71,8 +70,7 @@ function remove(btn) {
                 else
                     element.removeAttribute(attribute);
             }
-        }
-        else {
+        } else {
             if (domTextEditor)
                 text.removeElement({
                     domTextEditor,
