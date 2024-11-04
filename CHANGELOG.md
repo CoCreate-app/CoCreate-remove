@@ -1,3 +1,17 @@
+# [1.12.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.11.4...v1.12.0) (2024-11-04)
+
+
+### Bug Fixes
+
+* domTextEditor condition ([cc5e50d](https://github.com/CoCreate-app/CoCreate-remove/commit/cc5e50d081ce330aad3846a61f7e4211ea537a4a))
+* observer taget has been renamed to selector ([250b2d9](https://github.com/CoCreate-app/CoCreate-remove/commit/250b2d9ea0eaf6e355442b38eaf61b01e02aa6b6))
+* pretier.config.js and file formating ([8e69f20](https://github.com/CoCreate-app/CoCreate-remove/commit/8e69f2070ab87302a7cf15433c7999a24e116abd))
+
+
+### Features
+
+* add prettier.config.js and format files ([494843a](https://github.com/CoCreate-app/CoCreate-remove/commit/494843abb7c58c061abfa1eebe8f7a9ef50b7850))
+
 ## [1.11.4](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.11.3...v1.11.4) (2024-06-23)
 
 
