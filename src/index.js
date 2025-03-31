@@ -79,7 +79,7 @@ function remove(action) {
 
 Observer.init({
 	name: "CoCreateRemove",
-	observe: ["addedNodes"],
+	types: ["addedNodes"],
 	selector: "[remove-timeout]",
 	callback: function (mutation) {
 		let timeout = mutation.target.getAttribute("remove-timeout");
@@ -93,8 +93,8 @@ Observer.init({
 
 Observer.init({
 	name: "CoCreateElementsAttributes",
-	observe: ["attributes"],
-	attributeName: ["remove-timeout"],
+	types: ["attributes"],
+	attributeFilter: ["remove-timeout"],
 	callback: function (mutation) {
 		let timeout = mutation.target.getAttribute("remove-timeout");
 		if (timeout >= 0) {
