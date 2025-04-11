@@ -1,3 +1,12 @@
+## [1.12.1](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.12.0...v1.12.1) (2025-04-11)
+
+
+### Bug Fixes
+
+* dispatch end event on action element rather than document ([8ff53fa](https://github.com/CoCreate-app/CoCreate-remove/commit/8ff53fa71a56ae3443162a1e14c5844a1305d5f1))
+* update observer observe param to type and and attributeName to attributeFilter ([5950713](https://github.com/CoCreate-app/CoCreate-remove/commit/595071357b7ecc563e5f8b9d2312ec6e77ed54f6))
+* update selector operators ([431f686](https://github.com/CoCreate-app/CoCreate-remove/commit/431f6867d42254c199d19a926d912339dc26c302))
+
 # [1.12.0](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.11.4...v1.12.0) (2024-11-04)
 
 
