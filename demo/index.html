@@ -17,7 +17,7 @@
 		<h1 id="one" test>one</h1>
 		<a
 			actions="remove"
-			remove-selector="$parent iframe; $frame #one"
+			remove-query="$parent iframe; $frame #one"
 			remove-attribute="test"
 			>one</a
 		>
@@ -25,7 +25,7 @@
 		<h1 id="two" class="new">two</h1>
 		<a
 			actions="remove"
-			remove-selector="#two"
+			remove-query="#two"
 			remove-attribute="class"
 			remove-value="new"
 			>two</a
@@ -34,14 +34,14 @@
 		<h1 id="three" style="color: blue">three</h1>
 		<a
 			actions="remove"
-			remove-selector="#three"
+			remove-query="#three"
 			remove-attribute="style"
 			remove-value="color"
 			>three</a
 		>
 
 		<h1 id="four">four</h1>
-		<a actions="remove" remove-selector="iframe;">four</a>
+		<a actions="remove" remove-query="iframe;">four</a>
 
 		<iframe src="./iframe.html"></iframe>
 

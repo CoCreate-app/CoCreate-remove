@@ -12,9 +12,11 @@ function remove(action) {
 	if (toolbar) {
 		if (toolbar.toolbar.target) elements.push(toolbar.toolbar.target);
 	} else {
-		elements = queryElements({ element: btn, prefix: "remove" });
-		if (elements === false)
+		if (btn.hasAttribute("remove-query")) {
+			elements = queryElements({ element: btn, prefix: "remove" });
+		} else {
 			elements = [btn.closest("[render-clone]") || btn];
+		}
 	}
 
 	let attribute = btn.getAttribute("remove-attribute");
