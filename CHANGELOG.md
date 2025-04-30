@@ -1,3 +1,13 @@
+## [1.12.2](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.12.1...v1.12.2) (2025-04-30)
+
+
+### Bug Fixes
+
+* added css-loader ([acac5dd](https://github.com/CoCreate-app/CoCreate-remove/commit/acac5dd33a239a1a2f0f43fd21d17fe00e1af78e))
+* update query attributes ([42625e0](https://github.com/CoCreate-app/CoCreate-remove/commit/42625e04e7e846757fd6c55c91586d6e96f942cb))
+* updated cocreate modules versions ([d3638cc](https://github.com/CoCreate-app/CoCreate-remove/commit/d3638cca185118fb9b516b743d036202ed55a497))
+* webpack.config and devdependencies ([a690bd0](https://github.com/CoCreate-app/CoCreate-remove/commit/a690bd0980c9bdecf124820fb6943873afee9d0a))
+
 ## [1.12.1](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.12.0...v1.12.1) (2025-04-11)
 
 
