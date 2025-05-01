@@ -1,3 +1,10 @@
+## [1.12.3](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.12.2...v1.12.3) (2025-05-01)
+
+
+### Bug Fixes
+
+* update [@cocreate](https://github.com/cocreate) dependencies ([af97024](https://github.com/CoCreate-app/CoCreate-remove/commit/af970243964196921c5b899449042866f3e91319))
+
 ## [1.12.2](https://github.com/CoCreate-app/CoCreate-remove/compare/v1.12.1...v1.12.2) (2025-04-30)
 
 
